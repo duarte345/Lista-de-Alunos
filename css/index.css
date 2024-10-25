@@ -1,0 +1,73 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #727272;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+td a {
+    margin-right: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+td[colspan="5"] {
+    text-align: center;
+    color: #494949;
+    font-style: italic;
+}
+
+.editar{
+    color: white;
+    margin-right: 10px;
+}
+.eliminar {
+    color:white;
+    background-color: red;
+    margin-left: 10px;
+}
